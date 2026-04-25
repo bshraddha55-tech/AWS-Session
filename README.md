@@ -20,6 +20,8 @@ SECRET_KEY=""
 npm install
 npm run start
 ```
+*******************************************************************************************************************************************
+Hosting App on EC2 instance starts here
 
 ### Set up an AWS EC2 instance
 
