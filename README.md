@@ -61,6 +61,18 @@ SECRET_KEY=""
 ```
 > For this project, we'll have to set up an [Elastic IP Address](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html) for our EC2 & that would be our `DOMAIN`
 
+git clone https://github.com/verma-kunal/AWS-Session.git  -- forked it to my account
+```
+
+****Install nodejs and npm and check the version preferrably to be latest-- important for hosting the app on EC2 instance
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm  -- only after this 'npm install' will work
+
+*node -v
+npm -v
+
+
 3. Initialise and start the project
 ```
 npm install
@@ -76,7 +88,13 @@ nodemon version -- didn't work
 
 which worked ?
 
+npm install nodemon@latest --save-dev  --- 
 
+npm install
+
+npm start --- generated the local host link
+
+npm list nodemon -- informational (to list the nodemon version)
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
 
