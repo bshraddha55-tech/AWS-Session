@@ -64,8 +64,19 @@ SECRET_KEY=""
 3. Initialise and start the project
 ```
 npm install
-npm run start
+ Got Vulnerabilities here, due to this npm run gave error
+npm run 
 ```
+For trouble shooting done
+npm audit -- gave the package details which was causing issue
+npm audit fix - to fix the vulneranilities 
+npm fund -- had to try this too for cehcking the package details which was causing issue
+cat package.json -- to check the nodemon details
+nodemon version -- didn't work
+
+which worked ?
+
+
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
 
